@@ -1,7 +1,7 @@
 <?php 
    $key = htmlentities($_POST["key"]);
     
-   if($key == "123456789")
+   if($key == "A7B2C9E5F")
    {
     echo "<form action='true.php' method='post'>";
     echo "<p>Zugang erlaubt</p>";
