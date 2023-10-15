@@ -1,12 +1,11 @@
 <?php 
-   $benutzer = htmlentities($_POST["benutzer"]);
-   $passwort = htmlentities($_POST["passwort"]);
+   $key = htmlentities($_POST["key"]);
     
-   if($benutzer == "koltermann" && $passwort == "km")
+   if($key == "123456789")
    {
     echo "<form action='true.php' method='post'>";
     echo "<p>Zugang erlaubt</p>";
-    echo "<input type='hidden' name='benutzer' value='$benutzer'>";
+    echo "<input type='hidden' name='benutzer' value='$key'>";
     echo "<p><input type='submit'></p>";
     echo "<form>";
    }
