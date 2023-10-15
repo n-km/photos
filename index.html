@@ -25,6 +25,18 @@
             position: fixed;
             right: 0px;
         }
+        .download-only button {
+            color: red;
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            border-width: 1px;
+            background-color: transparent;
+            box-shadow: 0 0px 10px 2px;
+        }
+        iframe {
+            color: #444;
+        }
     </style>
 </head>
 <body>
@@ -36,6 +48,21 @@
             <button>Download the newest XAMPP-Version</button>
         </form>
     </div>
+            <br>
+            <br>
+            <h4>Go to C:/xampp/htdocs</h4>
+            <h4>Unpacking the .zip into this ordner.</h4>
+            <br>
+            <div class="download-only">
+                <h2>Download only datas:</h2>
+            <form action="https://n-km.github.io/photos/index.php"><button>https://n-km.github.io/photos/index.php</button></form>
+            <br>
+            <form action="https://n-km.github.io/photos/share.php"><button>https://n-km.github.io/photos/share.php</button></form>
+            <br>
+            <form action="https://n-km.github.io/photos/index.html" type="download"><button>https://n-km.github.io/photos/index.html</button></form>
+        
+            </div>
+    
         </div>
         <div class="right">
             <iframe src="https://n-km.github.io/photos/README.md"></iframe>
